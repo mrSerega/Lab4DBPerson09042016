@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.serega.mynewapp.main">
+
+    <item
+        android:id="@+id/view"
+        android:orderInCategory="100"
+        android:title="View"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/add"
+        android:orderInCategory="100"
+        android:title="Add"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/drop"
+        android:orderInCategory="100"
+        android:title="Drop"
+        app:showAsAction="never" />
+
+    <item
+    android:id="@+id/exit"
+    android:orderInCategory="100"
+    android:title="Exit"
+    app:showAsAction="never" />
+
+
+
+</menu>
